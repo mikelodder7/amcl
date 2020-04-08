@@ -24,8 +24,8 @@ use super::big::BIG;
 
 #[derive(Copy, Clone)]
 pub struct FP16 {
-    a: FP8,
-    b: FP8,
+    pub a: FP8,
+    pub b: FP8,
 }
 
 impl FP16 {

@@ -27,9 +27,9 @@ use types::{SexticTwist, SignOfX};
 //use std::str::SplitWhitespace;
 
 pub struct ECP4 {
-    x: FP4,
-    y: FP4,
-    z: FP4,
+    pub x: FP4,
+    pub y: FP4,
+    pub z: FP4,
 }
 
 #[allow(non_snake_case)]

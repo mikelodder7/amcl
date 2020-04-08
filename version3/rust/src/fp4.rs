@@ -24,8 +24,8 @@ use std::str::SplitWhitespace;
 
 #[derive(Copy, Clone)]
 pub struct FP4 {
-    a: FP2,
-    b: FP2,
+    pub a: FP2,
+    pub b: FP2,
 }
 
 impl PartialEq for FP4 {

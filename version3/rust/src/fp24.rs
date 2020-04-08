@@ -35,10 +35,10 @@ pub const DENSE: usize=4;
 
 #[derive(Copy, Clone)]
 pub struct FP24 {
-    a: FP8,
-    b: FP8,
-    c: FP8,
-    stype: usize,
+    pub a: FP8,
+    pub b: FP8,
+    pub c: FP8,
+    pub stype: usize,
 }
 
 impl FP24 {

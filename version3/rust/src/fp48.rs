@@ -36,10 +36,10 @@ pub const DENSE: usize=4;
 
 #[derive(Copy, Clone)]
 pub struct FP48 {
-    a: FP16,
-    b: FP16,
-    c: FP16,
-    stype: usize,
+    pub a: FP16,
+    pub b: FP16,
+    pub c: FP16,
+    pub stype: usize,
 }
 
 impl FP48 {
@@ -48,12 +48,12 @@ impl FP48 {
             a: FP16::new(),
             b: FP16::new(),
             c: FP16::new(),
-	    stype: ZERO,
+	        stype: ZERO,
         }
     }
 
     pub fn settype(&mut self,t: usize)  {
-	self.stype = t;
+	    self.stype = t;
     }
 
     pub fn gettype(&self) -> usize {

@@ -27,9 +27,9 @@ use super::big::BIG;
 use types::{SexticTwist, SignOfX};
 
 pub struct ECP8 {
-    x: FP8,
-    y: FP8,
-    z: FP8,
+    pub x: FP8,
+    pub y: FP8,
+    pub z: FP8,
 }
 
 #[allow(non_snake_case)]
